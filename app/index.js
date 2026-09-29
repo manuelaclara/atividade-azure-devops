@@ -59,11 +59,11 @@ app.get('/', (req, res) => {
                 padding: 40px;
                 border-radius: 12px;
                 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-                border-top: 5px solid #ED145B;
+                border-top: 5px solid #1E90FF;
                 max-width: 600px;
             }
             h1 {
-                color: #ED145B;
+                color: #1E90FF;
                 margin-top: 0;
             }
             p {
@@ -75,7 +75,7 @@ app.get('/', (req, res) => {
                 display: inline-block;
                 margin-top: 20px;
                 padding: 12px 24px;
-                background-color: #ED145B;
+                background-color: #1E90FF;
                 color: #ffffff;
                 text-decoration: none;
                 border-radius: 6px;
@@ -99,7 +99,7 @@ app.get('/', (req, res) => {
     <body>
         <div class="container">
             <div class="badge">Deploy Status: Sucesso! ✅</div>
-            <h1>Atividade DevOps & Cloud</h1>
+            <h1>Meus Filmes e Séries 🎬</h1>
             <p>Parabéns! Sua aplicação Node.js foi implementada com sucesso no Azure Web App através da sua esteira CI/CD.</p>
             <p>O App Insights já está monitorando sua aplicação.</p>
             <a href="/tema" class="btn">🚀 Ver Dados do Banco</a>
